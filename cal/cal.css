@@ -1,0 +1,55 @@
+* {
+  margin: 0; /* Elimina cualquier margen predeterminado de la pagina web*/
+  padding: 0; /* Elimina el relleno predeterminado de la pagina web*/
+}
+
+body {
+  background: #605678; /* Establece el fondo del cuerpo*/
+  color: #fef7fe; /* Establece el color del texto*/
+  font-family: sans-serif; /* Define la fuente de texto*/
+}
+
+h1 {
+  text-align: center; /* Centra el texto dentro de los encabezados*/
+}
+
+#calculadora {
+  margin: auto; /* Centra el contenedor de la calculadora horizontalmente en su contenedor padre */
+  border: solid 2px #536493; /* Establece un borde de 2 píxeles*/
+  height: 400px; /* Establece la altura de la calculadora*/
+  width: 500px; /* Establece el ancho de la calculadora*/
+  padding: 10px; /* Añade un relleno de 10 píxeles*/
+  background-color: #CA7373; /* Establece el fondo de la calculadora*/
+}
+
+#pantalla {
+  background-color: #D4F6FF; /* Establece un fondo*/
+  margin-top: 5px; /* Añade un margen superior*/
+  height: 70px; /* Establece la altura de la pantalla*/
+  width: 500px; /* Establece el ancho de la pantalla*/
+  border: 3px solid #C6E7FF; /* Establece un borde de 3 píxeles*/
+  text-align: right; /* Alinea el texto a la derecha dentro de la pantalla */
+  margin-bottom: 10px; /* Añade un margen inferior de 10 píxeles */
+}
+
+#teclado {
+  width: 100%; /* Establece el ancho del teclado al 100% del contenedor principal */
+  height: 80%; /* Establece la altura del teclado al 80% del contenedor principal */
+}
+
+#teclado div {
+  padding: 5px; /* Añade un relleno de 5 píxeles a cada <div> dentro del teclado */
+}
+
+#teclado div div {
+  padding: 3px; /* Añade un relleno de 3 píxeles dentro de cada botón */
+  margin: 10px; /* Añade un margen de 10 píxeles alrededor de cada botón */
+  border: 1px solid #D7B26D; /* Establece un borde de 1 píxel de color dorado claro alrededor de cada botón */
+  width: 90px; /* Establece el ancho de cada botón en 90 píxeles */
+  height: 50px; /* Establece la altura de cada botón en 50 píxeles */
+  float: left; /* Hace que los botones se alineen a la izquierda, colocándolos uno al lado del otro */
+  margin-top: 10px; /* Añade un margen superior de 10 píxeles entre los botones*/
+  text-align: center; /* Centra el texto dentro de los botones */
+  font-size: 40px; /* Establece el tamaño de la fuente dentro de los botones en 40 píxeles */
+  background-color: #EEE2B5; /* Establece el color de fondo de los botones*/
+}
